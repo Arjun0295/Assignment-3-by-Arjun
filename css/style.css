@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+html{
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Pacifico', cursive;
+}
+.cool-text {
+    font-size: large;
+    color: #ff0000; /* You can change the color to your preference */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  }
+
+  .cool-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* You can change the button background color */
+    color: #fff; /* Button text color */
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  .cool-textbox {
+    padding: 10px;
+    margin: 1%;
+    text-align: center;
+    border: 2px solid #ff0000; /* You can change the border color */
+    border-radius: 10px;
+    font-size: large;
+    color: #ff0000; /* Text color of the text box */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  /* Hover effect for the button */
+  .cool-button:hover {
+    background-color: #ac0039; /* Change to a darker shade on hover */
+  }
+body {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    padding-top: 2%;
+    min-height: 100vh;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.center{
+    text-align: center;
+    margin: 3%;
+}
+.flx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label, input, select {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#smoothieDescription {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}

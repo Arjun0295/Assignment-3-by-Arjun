@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smoothie Order Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="cool-text">
+        <h1>Smoothie Order Form</h1>
+    </div>
+    <div class="center">
+    <form id="smoothieForm">
+                <div class="cool-text flx">
+                    <label for="smoothieName">Name on Smoothie Cup:</label>
+                    <input class="cool-textbox" type="text" id="smoothieName" required><br>
+                </div>
+            </div> 
+            <div class="cool-text">
+                <label>Base Ingredients (Up to two):</label><br>
+            </div>
+                <div class="center flx">
+                <div class="flx">
+                    <input type="checkbox" name="baseIngredient" value="Strawberry" required>Strawberry
+                    <img src="images/strawberry-lauren-burke.jpg" alt="Strawberry" height="40" width="40">
+                </div>
+                <div class="flx">
+                    <input type="checkbox" name="baseIngredient" value="Banana" required>Banana
+                    <img src="images/8874222256158.jpg" alt="Banana" height="40" width="40">
+                </div>
+                <div class="flx">
+                    <input type="checkbox" name="baseIngredient" value="Blueberries" required>Blueberries
+                    <img src="images/borealwildblueberries.jpg" alt="Blueberries" height="40" width="40">
+                </div>
+                <div class="flx">
+                    <input type="checkbox" name="baseIngredient" value="Papaya" required>Papaya
+                    <img src="images/papaya.jpg" alt="Papaya" height="40" width="40">
+                </div>
+                <div class="flx">
+                    <input type="checkbox" name="baseIngredient" value="Mango" required>Mango
+                    <img src="images/mango.jpg" alt="Mango" height="40" width="40">
+                </div>
+                <div class="flx">
+                    <input type="checkbox" name="baseIngredient" value="Pineapple" required>Pineapple
+                    <img src="images/pineapple-blink-images.jpg" alt="Pineapple" height="40" width="40">
+                </div>
+            </div>
+            <div class="cool-text">
+                <label for="additionalIngredients">Additional Ingredients:</label><br>
+            </div>
+            <div class="center flx">
+            <div class="flx">
+                <input type="checkbox" name="ingredient" value="Vanilla" required>Vanilla
+                <img src="images/vanilla.jpg" alt="Vanilla" height="40" width="40">
+            </div>
+            <div class="flx">
+                <input type="checkbox" name="ingredient" value="Chocolate" required>Chocolate
+                <img src="images/chocolate.jpg" alt="Chocolate" height="40" width="40">
+            </div>
+            <div class="flx">
+                <input type="checkbox" name="ingredient" value="Strawberry Syrup" required>Strawberry Syrup
+                <img src="images/strawberry.webp" alt="Strawberry" height="40" width="40">
+            </div>
+            <div class="flx">
+                <input type="checkbox" name="ingredient" value="Caramel" required>Caramel
+                <img src="images/caramel.jpg" alt="Caramel" height="40" width="40">
+            </div>
+            <div class="flx">
+                <input type="checkbox" name="ingredient" value="Hazelnut" required>Hazelnut
+                <img src="images/haezelnut.jpg" alt="Hazelnut" height="40" width="40">
+            </div>
+            <div class="flx">
+                </div>
+            </div>
+        <button class="cool-button" type="button" onclick="createSmoothie()">Order</button>
+    </form>
+
+    <div id="smoothieDescription"></div>
+
+    <script src="js/smoothie.js"></script>
+</body>
+</html>
